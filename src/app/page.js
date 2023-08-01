@@ -1,5 +1,4 @@
 import Hero from '@/components/home/hero';
-import Animation from '@/components/home/animation';
 // import Lottiesss from '@/components/Lottiesss';
 // import Image from "next/image";
 
