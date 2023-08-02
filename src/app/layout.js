@@ -2,9 +2,9 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
-import { Providers } from "@/app/providers";
-import DarkModeToggleButton from "@/components/darkmode-toggle-btn";
-import ThemeSwitch from "./ThemeSwitcher";
+// import { Providers } from "@/app/providers";
+// import DarkModeToggleButton from "@/components/darkmode-toggle-btn";
+// import ThemeSwitch from "./ThemeSwitcher";
 
 const inter = Inter({ subsets: ["latin"] });
 

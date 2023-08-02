@@ -5,7 +5,6 @@ import { ThemeProvider } from 'next-themes'
 export function Providers({ children }) {
   const [mounted, setMounted] = useState(false);
 
-
   // useEffect only runs on the client, so now we can safely show the UI
   useEffect(() => {
     setMounted(true)
@@ -14,7 +13,6 @@ export function Providers({ children }) {
   if (!mounted) {
     return <>{children}</>
   }
-
 
   return <ThemeProvider>{children}</ThemeProvider>
 }
