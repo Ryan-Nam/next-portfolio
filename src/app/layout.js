@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <link rel="icon" href="/favicon.ico" />
-      <body className={inter.className}>
+      <body className={`{inter.className} bg-primary`}>
         <Header />
         {children}
         {/* <Providers>
